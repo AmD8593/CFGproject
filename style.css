@@ -1,0 +1,135 @@
+.navbar {
+    background-color: #e65100;
+}
+
+.navbar .navbar-brand,.navbar .navbar-nav .nav-link, .navbar .d-flex {
+    font-family: 'Alfa Slab One', cursive;
+}
+
+header {
+    background: linear-gradient(
+        rgba(230,81,0,0.5),
+        rgba(230,81,0,0.5)), 
+        url(https://static.propertylogic.net/blog/1454924560/belfast_city_aerial_view.jpeg);
+    background-size: cover;
+    height: 300px;
+    padding: 50px;
+    margin: 0px;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    header { 
+        height: 250px;
+    }
+  }
+
+.pg2 {
+    height: 200px;
+}
+.city, .description {
+    color:white;
+}
+
+.city {
+    font-size:100px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+@media only screen and (max-width: 600px) {
+    .city { 
+        font-size: 70px;
+    }
+  }
+
+
+.description {
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .description { 
+        font-size: 15px;
+    }
+  }
+
+
+footer {
+    background-color: #e65100;
+
+}
+
+.contact {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom:50px;
+    margin:0px;
+    list-style: none;
+}
+
+.item {
+    font-size: small;
+    /* font-family: 'Roboto Condensed', sans-serif; */
+    color: white;
+}
+
+.card {
+    flex-direction: row;
+}
+
+/* .card-body {
+    font-family: 'Roboto Condensed', sans-serif;
+} */
+
+.card-title {
+    color: #e65100;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+
+main {
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn {
+    background-color:#e65100;
+    color: white; 
+}
+
+.btn:hover{
+    color: #e65100;
+    background-color: white;
+    border-color: #e65100;
+}
+
+.pagination {
+    padding-top: 30px;
+    padding-bottom: 0px;
+}
+
+.pagination > li  > a {
+    color:#e65100;
+}
+
+.pagination > .active > a {
+    color: white;
+    background-color: #e65100;
+    border: solid 1px #e65100;
+}
+
+.pagination > li > a:focus,
+.pagination > li > a:hover,
+.pagination > li > span:focus,
+.pagination > li > span:hover
+{
+    color: #e65100;
+    background-color: #eee;
+    border-color: #ddd;
+}
+
+.pagination > .active > a:hover
+{
+    background-color: #5A4181 !Important;
+    border: solid 1px #5A4181;
+}
