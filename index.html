@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
@@ -14,20 +13,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
-    <title>Home</title>
+<link rel="stylesheet" href="style.css">
+    <title>Manchester</title>
 </head>
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">VIBEY</a>
+            <a class="navbar-brand" href="index.html">Vibey</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="src/index.html">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="#">Recommendations</a>
@@ -38,7 +37,7 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="page2.html">Belfast</a></li>
-                            <li><a class="dropdown-item" href="page3.html">Manchester</a></li>
+                            <li><a class="dropdown-item" href="page3/page3.html">Manchester</a></li>
                             <li><a class="dropdown-item" href="#">London</a></li>
                             <li><a class="dropdown-item" href="#">See more</a></li>
                         </ul>
@@ -52,71 +51,184 @@
         </div>
     </nav>
 
+    <header>
+        <h1 class="page">It's all about vibes! See what your city has to offer.</h1>
+        <p class ="description">Small town or big city, it doesn't matter. Show us what your city is made of. All the best eateries, activities, sights and social scenes!</p>
+        <div class="container">
+
+            <div class = "row gy-3">
+
+                <div class="col-md-6">
+                    <div class="card text-right h-100" >
+                        <div class="row g-0">
+                            <div class="col-lg-5">
+                            </div>
+                            <div class = "col-lg-7">
+                                <div class="card-body">
+                                    <h5 class="card-title"></h5>
+                                    <p class = "card-text"></p>
+                                    <a class="btn" href="" role="button">Get Started</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card text-right h-100" >
+                        <div class="row g-0">
+                            <div class="col-lg-5">
+                            </div>
+                            <div class = "col-lg-7">
+                                <div class="card-body">
+                                    <h5 class="card-title"></h5>
+                                    <p class = "card-text"></p>
+                                    <a class="btn" href="" role="button">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </header>
+
     <main>
 
-        <hr>
+        <div class="container">
 
-        <div id="carouselExample" class="carousel slide" data-bs-theme="dark">
-            <div class="carousel-inner">
-                <div class="carousel-item active" >
-                    <div class="container d-flex justify-content-center">
-                        <p class="quote">"Before VIBEY I struggled to find things to do in my area, I now use it everyday to connect with people" -Anonymous</p>
+            <div class = "row gy-3">
+
+                <div class="col-md-6">
+                    <div class="card text-right h-100" >
+                        <div class="row g-0">
+                            <div class="col-lg-5">
+                                <img src="icon.img" class="img-fluid rounded" alt="Image description">
+                            </div>
+                            <div class = "col-lg-7">
+                                <div class="card-body">
+                                    <h5 class="card-title">Putting your area on the map.</h5>
+                                    <p class = "card-text">Small city representation, if your area is not in all the tourist guides or those true gems of your city are hidden- Here's the place to let it be known!</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="carousel-item">
-                    <div class="container d-flex justify-content-center">
-                        <p class="quote">"With VIBEY, I can discover the hidden gems in my city, I otherwise would have missed!" -Anonymous</p>
+     
+                <div class="col-md-6">
+                    <div class="card text-right h-100" >
+                        <div class="row g-0">
+                            <div class="col-lg-5">
+                                <img src="recommendation.img" class="img-fluid rounded" alt="Image description">
+                            </div>
+                            <div class = "col-lg-7">
+                                <div class="card-body">
+                                    <h5 class="card-title">Real world recommendations</h5>
+                                    <p class = "card-text">All recommendations come from real people who have either spent time in the area or live there.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
 
-
-        <hr>
-
-        <div class="subscription">
-            <h3>Get In Touch</h3>
-            <p>Subscribe and receive monthly calendar updates for your city. Tailored to suit your vibes!</p>
-            <div class="container d-flex justify-content-center">
-                <form class="row row-cols-lg-auto g-1">
-                    <div class="col-12">
-                        <label class="visually-hidden" for="inlineFormInput">Email</label>
-                        <input type="text" class="form-control" id="autoSizingInput" placeholder="Email address">
+                <div class="col-md-6">
+                    <div class="card text-right h-100" >
+                        <div class="row g-0">
+                            <div class="col-lg-5">
+                                <img src="groupicon.img" class="img-fluid rounded" alt="Image description">
+                            </div>
+                            <div class = "col-lg-7">
+                                <div class="card-body">
+                                    <h5 class="card-title">Community connections</h5>
+                                    <p class = "card-text">Connect with people in your area who share the same hobbies and interests as you!</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12">
-                        <label class="visually-hidden" for="inlineFormInput">Name</label>
-                        <input type="text" class="form-control" id="autoSizingInput" placeholder="Full name">
+                </div>
+                <div class="col-md-6">
+                    <div class="card text-right h-100" >
+                        <div class="row g-0">
+                            <div class="col-lg-5">
+                                <img src="groupchat.img" class="img-fluid rounded" alt="Image description">
+                            </div>
+                            <div class = "col-lg-7">
+                                <div class="card-body">
+                                    <p class = "card-text">New to the city and looking to socialise, find people in your area who experience joy the same way you do! 
+
+                                        Join one of our many social hubs and discuss all things food, adrenaline, relaxing- Whatever you like! 
+                                        
+                                        And if that group doesn't exist, then bring those vibes yourself, create a hub, suggest a group meet or just connect with each other.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-12">
-                        <button type="submit" class="btn">Subscribe</button>
-                    </div>
-                </form>
-            </div>
-        </div>
+                </div>
 
-
-        <hr>
-
-        <div class="app">
-            <h3>Download the mobile app for free @VIBEY</h3>
-            <ul>
-                <li>
-                    <a href="https://www.apple.com/uk/app-store/"><img class="apple" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1286323200" alt="Download on the App Store" ></a>
-                </li>
-                <li>
-                    <a class="appLink" href='https://play.google.com/store/apps?pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' ><img class="google" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
-                </li>
-            </ul>
+                    <hr>
             
+                    <div id="carouselExample" class="carousel slide" data-bs-theme="dark">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" >
+                                <div class="container d-flex justify-content-center">
+                                    <p class="quote">"Before VIBEY I struggled to find things to do in my area, I now use it everyday to connect with people" -Anonymous</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="container d-flex justify-content-center">
+                                    <p class="quote">"With VIBEY, I can discover the hidden gems in my city, I otherwise would have missed!" -Anonymous</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+            
+            
+                    <hr>
+            
+                    <div class="subscription">
+                        <h3>Get In Touch</h3>
+                        <p>Subscribe and receive monthly calendar updates for your city. Tailored to suit your vibes!</p>
+                        <div class="container d-flex justify-content-center">
+                            <form class="row row-cols-lg-auto g-1">
+                                <div class="col-12">
+                                    <label class="visually-hidden" for="inlineFormInput">Email</label>
+                                    <input type="text" class="form-control" id="autoSizingInput" placeholder="Email address">
+                                </div>
+                                <div class="col-12">
+                                    <label class="visually-hidden" for="inlineFormInput">Name</label>
+                                    <input type="text" class="form-control" id="autoSizingInput" placeholder="Full name">
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+            
+            
+                    <hr>
+            
+                    <div class="app">
+                        <h3>Download the mobile app for free @VIBEY</h3>
+                        <ul>
+                            <li>
+                                <a href="https://www.apple.com/uk/app-store/"><img class="apple" src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1286323200" alt="Download on the App Store" ></a>
+                            </li>
+                            <li>
+                                <a class="appLink" href='https://play.google.com/store/apps?pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1' ><img class="google" alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png'/></a>
+                            </li>
+                        </ul>
+                        
+                    </div>
         </div>
+
+        </div>
+
     </main>
 
     <footer>
@@ -138,6 +250,10 @@
             </li>
         </ul>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
