@@ -72,16 +72,23 @@
 
 
 header {
-    background: linear-gradient(
-        rgba(230,81,0,0.5),
-        rgba(230,81,0,0.5)), 
-        url(https://static.propertylogic.net/blog/1454924560/belfast_city_aerial_view.jpeg);
-    background-size: cover;
     height: 300px;
     padding: 50px;
     margin: 0px;
     text-align: center;
 }
+
+.belfast {
+    background: linear-gradient(
+        rgba(230,81,0,0.5),
+        rgba(230,81,0,0.5)), 
+        /* rgba(252,132,0,0.5),
+        rgba(252,132,0,0.5)), */
+        /* rgba(252,62,0,0.5),
+        rgba(252,62,0,0.5)), */
+        url(https://static.propertylogic.net/blog/1454924560/belfast_city_aerial_view.jpeg);
+
+    
 
 .pg2 {
     height: 200px;
