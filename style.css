@@ -40,6 +40,7 @@
 .subscription .container{
     padding:0px;
     padding-top:10px;
+    padding-bottom:15px;
 }
 
 .app  {
@@ -48,7 +49,7 @@
     text-align: center;
     padding: 30px;
     margin:0px;
-    color: #e65100
+    color: #e65100;
 }
 
 .app h3 {
@@ -87,8 +88,25 @@ header {
         /* rgba(252,62,0,0.5),
         rgba(252,62,0,0.5)), */
         url(https://static.propertylogic.net/blog/1454924560/belfast_city_aerial_view.jpeg);
+        background-size: cover;
+}
 
-    
+.home {
+    background: linear-gradient(
+        rgba(230,81,0,0.5),
+        rgba(230,81,0,0.5)), 
+        /* rgba(252,132,0,0.5),
+        rgba(252,132,0,0.5)), */
+        /* rgba(252,62,0,0.5),
+        rgba(252,62,0,0.5)), */
+        url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/A_large_blank_world_map_with_oceans_marked_in_blue.PNG/2560px-A_large_blank_world_map_with_oceans_marked_in_blue.PNG);
+        background-size: cover;
+}
+
+.home .page {
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+}
 
 .pg2 {
     height: 200px;
@@ -109,7 +127,7 @@ header {
 
 @media only screen and (max-width: 767.98px) {
     .description { 
-        font-size: 16px;
+        font-size: 15px;
     }
     .city {
         font-size: 80px
@@ -192,19 +210,30 @@ main {
     border-color: #e65100;
 }
 
+.info {
+    background-color:#FC840D;
+    color: white;
+}
+
+.info:hover{
+    color: #FC840D;
+    background-color: white;
+    border-color: #FC840D;
+}
+
 .pagination {
     padding-top: 30px;
     padding-bottom: 0px;
 }
 
 .pagination > li  > a {
-    color:#e65100;
+    color:#FC840D;
 }
 
 .pagination > .active > a {
     color: white;
-    background-color: #e65100;
-    border: solid 1px #e65100;
+    background-color: #FC840D;
+    border: solid 1px #FC840D;
 }
 
 .pagination > li > a:focus,
@@ -222,6 +251,8 @@ main {
     background-color: #FC840D;
     border: solid 1px #FC840D;
 }
+
+
 
 
 
