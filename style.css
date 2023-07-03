@@ -102,7 +102,6 @@ header {
         url(https://static.propertylogic.net/blog/1454924560/belfast_city_aerial_view.jpeg);
         background-size: cover;
 }
-
 .home {
     background: linear-gradient(
         rgba(230,81,0,0.5),
@@ -119,6 +118,7 @@ header {
 .home .page {
     font-family: 'Alfa Slab One', cursive;
     color: white;
+}
 
 .pg2 {
     height: 200px;
@@ -263,12 +263,5 @@ main {
     background-color: #FC840D;
     border: solid 1px #FC840D;
 }
-
-
-
-
-
-
-
 
 
