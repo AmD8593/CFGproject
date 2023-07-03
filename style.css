@@ -40,6 +40,7 @@
 .subscription .container{
     padding:0px;
     padding-top:10px;
+    padding-bottom:15px;
 }
 
 .app  {
@@ -190,6 +191,17 @@ main {
     color: #e65100;
     background-color: white;
     border-color: #e65100;
+}
+
+.info {
+    background-color:#FC840D;
+    color: white;
+}
+
+.info:hover{
+    color: #FC840D;
+    background-color: white;
+    border-color: #FC840D;
 }
 
 .pagination {
