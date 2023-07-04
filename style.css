@@ -68,6 +68,30 @@
     padding:12px;
 }
 
+.home {
+    background: linear-gradient(
+        rgba(230,81,0,0.5),
+        rgba(230,81,0,0.5)), 
+        /* rgba(252,132,0,0.5),
+        rgba(252,132,0,0.5)), */
+        /* rgba(252,62,0,0.5),
+        rgba(252,62,0,0.5)), */
+        url(https://upload.wikimedia.org/wikipedia/commons/c/cb/The_Blue_Marble_%28remastered%29.jpg);
+        background-size: cover;
+        height: 300px;
+}
+
+.home .page {
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    text-align: center;
+    padding:10px;
+}
+
+.home .description {
+    text-align:center;
+    padding:5px;
+}
 
 /* City pages */
 
@@ -99,26 +123,10 @@ header {
         rgba(252,132,0,0.5)), */
         /* rgba(252,62,0,0.5),
         rgba(252,62,0,0.5)), */
-        url(https://static.independent.co.uk/2021/09/09/10/iStock-1330512300%20%281%29.jpg);
-    background-size: cover;
-}
-.home {
-    background: linear-gradient(
-        rgba(230,81,0,0.5),
-        rgba(230,81,0,0.5)), 
-        /* rgba(252,132,0,0.5),
-        rgba(252,132,0,0.5)), */
-        /* rgba(252,62,0,0.5),
-        rgba(252,62,0,0.5)), */
-        url(https://upload.wikimedia.org/wikipedia/commons/c/cb/The_Blue_Marble_%28remastered%29.jpg);
+        url(https://media.tacdn.com/media/attractions-content--1x-1/0b/e4/99/4e.jpg);
         background-size: cover;
-        height: 210px;
 }
 
-.home .page {
-    font-family: 'Alfa Slab One', cursive;
-    color: white;
-}
 
 .pg2 {
     height: 200px;
@@ -136,16 +144,6 @@ header {
 .description {
     font-size: 20px;
 }
-
-@media only screen and (max-width: 767.98px) {
-    .description { 
-        font-size: 15px;
-    }
-    .city {
-        font-size: 80px
-    }
-}
-
 
 footer {
     background-color: #e65100;
@@ -180,26 +178,6 @@ ul li {
     flex-direction: row; 
     height: 100px;
 }
-
-/* Makes images the same height in card */
-/* Phone */
-@media (min-width: 320px) {
-    .img-fluid {
-        width: 100%;
-        height: 15rem;
-        object-fit: cover;
-    } 
-}
-
-/* Desktop */
-@media (min-width: 992px) {
-    .img-fluid {
-        width: 100%;
-        height: 15rem;
-        object-fit: cover;
-    }
-}
-
 
 .card-title {
     color: #e65100;
@@ -265,3 +243,54 @@ main {
 }
 
 
+/* Responsiveness */
+
+@media only screen and (max-width: 767.98px) {
+    .description { 
+        font-size: 15px;
+    }
+    .city {
+        font-size: 80px
+    }
+    .home .page{
+        font-size: 20px;
+        padding:0px;
+    }
+    .home {
+        height: 270px;
+    }
+    .home .description {
+        padding:0px;
+    }
+    .manchester .city {
+        font-size:60px;
+    }
+}
+
+/* Makes images the same height in card */
+/* Phone */
+@media (min-width: 320px) {
+    .img-fluid {
+        width: 100%;
+        height: 15rem;
+        object-fit: cover;
+    } 
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+    .img-fluid {
+        width: 100%;
+        height: 15rem;
+        object-fit: cover;
+    }
+}
+
+/* @media (min-width: 320px) {
+    .app .apple{
+        text-align:center;
+    }
+    .app . google {
+        text-align:center;
+    }
+} */
